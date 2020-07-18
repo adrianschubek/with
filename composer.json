@@ -1,0 +1,25 @@
+{
+    "name": "adrianschubek/with",
+    "description": "Adds with() functionality",
+    "type": "library",
+    "homepage": "https://docs.adriansoftware.de/with",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "adrian",
+            "email": "adrian.schubek@gmail.com",
+            "homepage": "https://adriansoftware.de"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "adrianschubek\\": "src/"
+        },
+        "files": [
+            "src/Support/helpers.php"
+        ]
+    },
+    "require": {
+        "php": ">=7.4"
+    }
+}
